@@ -1,0 +1,61 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #ffcccc; /* Light pink background color */
+  }
+  .love-prediction-form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  .love-prediction-form h2 {
+    margin: 0 10px;
+    margin-bottom: 5px;
+    font-family: 'Segoe Script', sans-serif;
+    color: #ff3366; /* Reddish-pink color for heading */
+  }
+  .love-prediction-form h3 {
+    font-size: 12px;
+    font-family: 'Segoe Script', sans-serif;
+    color: #a10028; 
+  }
+  .love-prediction-form label {
+    display: block;
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: #333; /* Dark color for labels */
+  }
+  .love-prediction-form input[type="date"] {
+    width: calc(100% - 22px);
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin-bottom: 25px;
+    box-sizing: border-box;
+  }
+  .love-prediction-form button {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    background-color: #ff3366; /* Reddish-pink button color */
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  .love-prediction-form button:hover {
+    background-color: #ff1a4d; /* Darker shade on hover */
+  }
+  .love-prediction-result {
+    margin-top: 30px;
+    display: none;
+    font-weight: bold;
+    color: #ff3366; /* Reddish-pink color for result text */
+  }
